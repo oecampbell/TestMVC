@@ -12,7 +12,7 @@ namespace TestMVC.Controllers
         // GET: Movies
         public ActionResult Random()
         {
-            var movie = new Movie() { Name = "Shek!" }; 
+            var movie = new Movie() { Name = "Finding Dory" }; 
             return View(movie);
         }
 
