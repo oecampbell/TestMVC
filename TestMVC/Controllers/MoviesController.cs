@@ -10,6 +10,7 @@ namespace TestMVC.Controllers
     public class MoviesController : Controller
     {
         // GET: Movies
+
         public ActionResult Random()
         {
             var movie = new Movie() { Name = "Finding Dory" }; 
@@ -33,6 +34,7 @@ namespace TestMVC.Controllers
             return Content(String.Format("pageIndex={0}&sortby={1}", pageIndex, sortBy));
                
         }
+        
     }   
  
 
